@@ -24,19 +24,13 @@ OSX/Make
 > cd build-osx-make
 > make install
 
-Windows/MinGW/Eclipse
----------------------
-> eclipse-msw-build.bat
-> cd build-eclipse-msw
-> make install
-
 Linux
 -------------------
 > ./linux-make-build.sh
 > cd build-linux-make
 > make install
 
-Fugu uses Qt extensively, so you will need to have that installed (version 4.7.4 or later). For the osx/make and windows/mingw targets, most of the dependencies have been prebuilt and reside in lib/. If you target other systems, e.g., Visual Studio, then you may need to build the dependencies for that target. 
+Fugu uses Qt extensively, so you will need to have that installed (version 4.7.4 or later). For the osx/make and windows/mingw targets, most of the dependencies have been prebuilt and reside in lib/. If you target other systems, e.g., Visual Studio, then you may need to build the dependencies for that target.
 
 For Linux (on Ubuntu), you'll need build-essential, cmake, qt4-dev, liblua-dev, freeglut3-dev, libglew-dev, libluabind, libboost-dev, libboost-system-dev, libboost-filesystem-dev, libqscintilla2-dev
 
